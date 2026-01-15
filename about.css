@@ -1,0 +1,794 @@
+.abimage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image:
+    linear-gradient(rgba(255, 215, 0, 0.5), rgba(255, 215, 0, 0)),
+    url(pics/aaron-burden-xjwX7Y3QoQ8-unsplash.jpg);
+}
+.abimage h2 {
+    font-size: 60px;
+    color: white;
+}
+.misvistext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.misvistext h4 {
+  font-size: 22px;
+}
+.misvistext p {
+    font-size: 20px;
+}
+.who {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.beliefs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.belief {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: start;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.belifing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    margin-bottom: 60px;
+    
+}
+.firstbelief {
+    margin-left: 5px;
+}
+.secondbelief {
+    /* margin-right: 5px; */
+}
+.topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+li {
+    font-size: 13px;
+}
+
+/*MINISTRIES SECTION*/
+.childyouth {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image:
+        linear-gradient(to top, rgba(255, 215, 0, 0.5) 0%, rgba(255, 215, 0, 0) 100%),
+        url(pics/medium-shot-kids-sitting-bench.jpg);
+}
+.every {
+    margin-left: 20px;
+}
+
+.childage {
+    font-size: 21px;
+    margin-left: 20px;
+}
+.childyouth h2 {
+    color: white;
+    font-size: 50px;
+}
+.childrentext {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+}
+.childrentext h2 {
+    color: #fdcc2a;
+}
+.special, .weekly {
+    line-height: 0.6;
+    font-size: 17px;
+}
+.weekly {
+    margin-left: 20px;
+}
+.special {
+    margin-right: 0px;
+}
+
+.everychild p {
+    font-size: 21px;
+    margin-left: 20px;
+}
+.activitiess h3 {
+    color: #fdcc2a;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.activitiess {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0px;
+    gap: 10px;
+    width: 100%;
+}
+.youthtext {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdcc2a;
+    margin: 0;
+    margin-top: 40px;
+}
+.youthtext h2 {
+ color: white;
+ margin-left: 10px;
+}
+.youthage, .youthvis p {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.youthtext h4 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.youthh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    gap: 10px;
+}
+.youthh h3 {
+    color: white;
+    font-size: 21px;
+}
+.youthweek, .specialyouth {
+    line-height: 0.6;
+}
+.adultpic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    background-image:
+        linear-gradient( rgba(255, 215, 0, 0.5) 0%, rgba(255, 215, 0, 0) 100%),
+        url(pics/IMG-20260115-WA0249.jpg);
+}
+.adultpic h2 {
+    font-size: 60px;
+    color: white;
+}
+.men, .mennini {
+    margin-left: 10px;
+}
+.mennini {
+    color: #fdcc2a;
+}
+.menmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 20px;
+    line-height: 0.5;
+}
+.menmain h3 {
+    color: #fdcc2a;
+}
+.mentext {
+    font-size: 20px;
+}
+.women, .womenmini {
+    margin-left: 10px;
+}
+.womenmini {
+    padding-top: 30px;
+    color: white;
+}
+.womencolor {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-image:
+        linear-gradient( rgba(255, 215, 0, 0.5) 0%, rgba(255, 215, 0, 0) 100%),
+        url(pics/IMG-20260115-WA0241.jpg);
+    margin-top: 60px;
+}
+.womentext {
+    font-size: 20px;
+    color: white;
+}
+.womenmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 20px;
+    line-height: 0.5;
+}
+.womenmain h3 {
+    color: white;
+}
+.eventslist {
+    margin-top: 70px;
+}
+.eventgrid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 120px;
+    row-gap: 30px;
+}
+.eventname {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+.eventname p {
+    font-size: 18px;
+}
+.eventgrids {
+  height: 300px;
+  width: 350px;
+}
+.eventgrids h3 {
+     font-weight: bold;
+     line-height: 1;
+}
+.eventgrids p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.eventgrids {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 0.6;
+   background-color: #fdcc2a;
+   border-radius: 10px;
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+   transition: transform 0.3s ease;
+}
+.eventgrids:hover {
+    transform: translateY(-10px);
+}
+.pastorpic img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.aboutpastor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-left: 30px;
+    column-gap: 50px;
+    font-size: 22px;
+}
+.pastorhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pastorhead h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.pastorpic {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 100px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+.pastortext {
+    align-items: center;
+}
+.phoneno {
+    display: inline-block;
+   
+   vertical-align: middle;
+}
+.mail {
+    border: 2px solid #fdcc2a;
+    border-radius: 15px;
+}
+#iconphone {
+    font-size: 25px;
+    color: #fdcc2a;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.contacthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#iconmail {
+    font-size: 25px;
+    color: #fdcc2a;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#iconlocation {
+    font-size: 25px;
+    color: #fdcc2a;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contavttext {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    row-gap: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(253, 204, 42, 0.25);
+    max-width: 600px;
+}
+.contavttext h2 {
+    font-size: 50px;
+    margin: 10px 0 0 0;
+}
+.toget {
+    color: #fdcc2a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.contavttext p {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.locat {
+    border-radius: 15px;
+    border: 2px solid #fdcc2a;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    column-gap: 30px;
+}
+.locationtext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainconfactform {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.phon {
+    display: inline-block;
+    vertical-align: middle;
+}
+.phone {
+    border: 2px solid #fdcc2a;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    column-gap: 30px;
+}
+.phonetext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    column-gap: 30px;
+}
+.input-box {
+    position: relative;
+    margin-bottom: 10px;
+}
+.input-box input, .input-box textarea {
+    width: 93%;
+    padding: 14px 12px;
+    border: 1px solid rgba(253, 204, 42, 0.6);
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    background: white;
+}
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #999;
+    font-size: 17px;
+    background: white;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+.input-box input:focus + label,
+.input-box input:valid + label,
+.input-box textarea:focus + label,
+.input-box textarea:valid + label {
+    top: -6px;
+    font-size: 14px;
+    color: #fdcc2a;
+}
+.input-box input:focus,
+.input-box textarea:focus {
+    border-color: #fdcc2a;
+    box-shadow: 0 0 0 3px rgba(253, 204, 42, 0.25);
+}
+.contactform::placeholder {
+    color: grey;
+    font-size: 22px;
+}
+.emailtext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactform {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(253, 204, 42, 0.25);
+    max-width: 600px;
+    margin-left: 10px;
+}
+.contactform h2 {
+    color: #fdcc2a;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.contactform input, .contactform textarea {
+    padding: 17px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #fdcc2a;
+    border: 2px solid black;
+    outline: none;
+}
+.contactform input:focus, .contactform textarea:focus {
+    border-color: #fdcc2a;
+}
+.contactform form {
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    gap: 15px;
+}
+.contactform button {
+    margin-bottom: 60px;
+    padding: 14px;
+    border: none;
+    background: linear-gradient(90deg, #fdcc2a, #d4af37);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.contactform button:hover {
+    opacity: 0.9;
+}
+.footer {
+    background: #0f0f0f;
+    color: #fff;
+    padding: 60px 20px 20px;
+}
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 35px;
+}
+.footer-box h3, .footer-box h4 {
+    color: #fdcc2a;
+    margin-bottom: 15px;
+}
+.footer-box p {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.footer-bottom {
+    border-top: 1px solid rgb(255, 255, 255, 0.15);
+    margin-top: 40px;
+    padding-top: 15px;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 13px;
+    color: #bbb;
+}
+
+
+@keyframes appear{
+    from{
+        opacity: 0.9;
+        scale: 0.7;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.churchgrid, .pastorpic {
+    animation: appear 0.5s linear;
+    animation-timeline: view();
+}
+
+@media (min-width: 900px) {
+    .pastorpic {
+        margin-left: 200px;
+    }
+}
+@media (max-width: 1100px) {
+    .contactform {
+        margin: 10px;
+    }
+    .contavttext {
+        margin: 0;
+    }
+    .aboutpastor {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        font-size: 17px;
+    }
+    .eventgrid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    column-gap: 10px;
+    align-items: start;
+    }
+    .eventgrids {
+        height: 200px;
+        width: 250px;
+      }
+      .eventgrids h3 {
+        font-size: 18px;
+      }
+      .eventgrids p {
+        font-size: 13px;
+      }
+
+}
+
+
+
+@media (max-width: 600px) {
+    .contavttext h2 {
+        font-size: 20px;
+        margin: 0px 0 0 0;
+    }
+    .toget {
+        color: #fdcc2a;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    .contavttext p {
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    .mail {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .locationtext {
+        row-gap: 5px;
+        font-size: 13px;
+    }
+    .locat {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .emailtext {
+        font-size: 13px;
+    }
+    .phone {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .phonetext {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .pastorpic img {
+        height: 300px;
+        width: 250px;
+        border:  2px solid #fdcc2a;
+        border-radius: 100%;
+    }
+    .contactform button {
+        margin-top: 0px;
+        padding: 9px;
+        font-size: 10px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+    .input-box {
+        position: relative;
+        margin-bottom: 0px;
+    }
+    .input-box input, .input-box textarea {
+        width: 93%;
+        padding: 9px 7px;
+        border: 1px solid rgba(253, 204, 42, 0.6);
+        border-radius: 10px;
+        outline: none;
+        font-size: 10px;
+        background: white;
+    }
+    .contactform {
+        margin-left: 0;
+        max-width: 350px;
+        max-height: 400px;
+    }
+    .contactform input, .contactform textarea {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .contavttext {
+        row-gap: 10px;
+        padding: 15px;
+        margin-left: 0;
+        max-width: 380px;
+    }
+    .contactform h2 {
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+    .mainconfactform {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .pastorpic {
+        display: grid;
+        grid-template-columns: 200px;
+        justify-content: end;
+        margin-right: 110px;
+        margin-bottom: 20px;
+        row-gap: 20px;
+    }
+    .pastortext {
+        margin-right: 55px;
+        text-align: center;
+    }
+    .eventgrids {
+        height: 200px;
+        width: 250px;
+      }
+    .eventgrid {
+    display: grid;
+    grid-template-columns: 200px;
+    margin-right: 60px;
+    }
+    .mentext {
+        font-size: 13px;
+    }
+    .womentext {
+        font-size: 13px;
+    }
+    .womenmain {
+        font-size: 13px; 
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .menmain {
+        display: grid;
+    grid-template-columns: 1fr;
+    font-size: 13px;
+    }
+    .childage {
+        font-size: 14px;
+    }
+    .everychild p {
+        font-size: 14px;
+    }
+    .youthtext p {
+        font-size: 14px;
+    }
+    .special, .weekly {
+        font-size: 13px;
+    }
+    .youthh {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+    .activitiess {
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        font-size: 14px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .special {
+        font-size: 15px;
+        margin-right: 115px;
+    }
+    .childrentext {
+        align-items: center;
+    }
+    .youthtext {
+        align-items: center;
+    }
+}
+

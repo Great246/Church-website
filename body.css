@@ -1,0 +1,499 @@
+.backgroundpic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    background-image:
+        linear-gradient(to right, rgba(255, 215, 0, 0.5) 0%, rgba(255, 215, 0, 0) 100%),
+        url(pics/IMG-20260115-WA0243.jpg);
+}
+
+.background {
+    margin-top: 100px;
+}
+
+.hero {
+    margin-left: 130px;
+    overflow: hidden;
+}
+
+.hero h2 {
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    font-size: 90px;
+    color: #fdcc2a;
+    margin: 0;
+}
+
+.hero h4 {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.hero h5 {
+    margin-left: 10px;
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero span {
+    font-size: 100px;
+    margin-left: 20px;
+    font-style: italic;
+    color: white;
+}
+
+.con {
+    display: inline-block;
+    background-color: #fdcc2a;
+    color: white;
+    margin-bottom: 20px;
+    padding: 19px 15px 19px 15px;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    animation: sway 2s infinite alternate ease-in-out;
+}
+
+@keyframes sway {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(15px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hero-text,
+.hero-subtext,
+.her-subtext {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeinup 1s forwards;
+}
+
+.hero-subtext {
+    animation-delay: 0.5s;
+}
+
+.her-subtext {
+    animation-delay: 0.8s;
+}
+
+@keyframes fadeinup {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.secbackground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.church-text {
+    font-size: 29px;
+}
+
+.churchgrid {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    line-height: 0.5;
+    column-gap: 150px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.desc {
+    line-height: 3;
+}
+
+.gridone,
+.divtwo {
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.6);
+}
+
+.churchgrid p {
+    font-size: 22px;
+}
+
+.churchgrid h5 {
+    font-size: 25px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.toppad {
+    margin-top: 0;
+}
+
+.mini {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.child {
+    text-align: center;
+    background-color: white;
+    height: 400px;
+    line-height: 1;
+    margin-bottom: 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.adult {
+    text-align: center;
+    background-color: #fdcc2a;
+    height: 400px;
+    line-height: 1;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.child h3 {
+    font-size: 70px;
+    margin-left: 265px;
+    position: absolute;
+    top: 0;
+    font-style: italic;
+    left: -10px;
+    color: #fdcc2a;
+}
+
+.minone {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.minonee {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: -10px;
+    top: 80px;
+}
+
+.adult h3 {
+    font-size: 70px;
+    margin-left: 265px;
+    position: absolute;
+    top: 0;
+    font-style: italic;
+    left: 60px;
+    color: white;
+}
+
+.child p {
+    text-decoration: none;
+    color: #fdcc2a;
+    position: absolute;
+    top: 0;
+    left: 90px;
+    top: 250px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.adult p {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 130px;
+    top: 250px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+@media (max-width: 3000px) {
+    .backgroundpic {
+        margin-top: 120px;
+        height: 500px;
+    }
+}
+@media (max-width: 400px) {
+    .belifing {
+        grid-template-columns: 1fr;
+        column-gap: 5px;
+        margin: 0;
+    }
+    .topic {
+        font-size: 5px;
+    }
+    .belifing {
+        font-size: 1px;
+    }
+    .firstbelief {
+        margin-left: 10px;
+    }
+    .secondbelief {
+        margin-right: 0px;
+    }
+    .child p {
+        left: 10px;
+        top: 0;
+    }
+    .adult p {
+        left: 20px;
+        top: 0;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+    .churchgrid {
+        margin-top: 0px;
+        grid-template-columns: 150px 150px;
+        column-gap: 10px;
+    }
+    /* .belifing {
+        grid-template-columns: 1fr;
+        column-gap: 10px;
+    }
+    .firstbelief {
+        margin: 0;
+    }
+    .secondbelief {
+        margin: 0;
+    } */
+    .gridone h5 {
+        margin: 0;
+        font-size: 15px;
+    }
+    .gridone p {
+        font-size: 10px;
+    }
+    .divtwo h5 {
+        margin: 0;
+        font-size: 15px;
+    }
+    .divtwo p {
+        font-size: 10px;
+    }
+    .child p {
+        margin: 0;
+        font-size: 17px;
+    }
+    .child h3 {
+        margin: 0;
+        font-size: 20px;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .adult h3 {
+        margin: 0;
+        font-size: 40px;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .adult {
+        margin: 0;
+    }
+    .adult p {
+            margin: 0;
+            font-size: 17px;
+    }
+    .mini {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .minonee {
+        font-size: 10px;
+    }
+    .right {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+        transition: max-height 0.4s ease;
+    }
+    .link:hover {
+        background-color: #d4af37;
+        color: white;
+    }
+    .link {
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 7px;
+        transition: all 0.3s ease;
+    }
+    .right.active {
+        max-height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link::after {
+        display: none;
+    }
+    .minone {
+        font-size: 10px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+    }
+    .church-text {
+        font-size: 17px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .left img {
+        height: 35px;
+        margin-left: 0px;
+    }
+    .left h2 {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+    .hamburger {
+        display: flex;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    body {
+        font-size: 16px;
+    }
+   .right {
+    margin: 0;
+   }
+   .link {
+    font-size: 15px;
+    margin-right: 10px;
+   }
+    .hero {
+        margin: 0;
+    }
+
+    .backgroundpic {
+        margin-top: 0px;
+        height: 500px;
+    }
+
+    .mini {
+        grid-template-columns: 1fr;
+    }
+
+    .adult {
+        margin: 0;
+    }
+
+    .child h3 {
+        margin: 0;
+        font-size: 35px;
+        top: 60px;
+        right: 50px;
+        left: 30px;
+    }
+
+    .adult h3 {
+        margin: 0;
+        font-size: 40px;
+        top: 60px;
+        right: 20px;
+        left: 120px;
+    }
+
+    .child p {
+        top: 140px;
+        right: 10px;
+        left: 10px;
+    }
+
+    .adult p {
+        top: 140px;
+        right: 10px;
+        left: 10px;
+    }
+
+    .minonee {
+        font-size: 25px;
+        left: 0px;
+        right: 40px;
+        top: 50px;
+        bottom: 0px;
+    }
+
+    .minone {
+        font-size: 25px;
+        left: 0px;
+        right: 40px;
+        top: 50px;
+        bottom: 0px;
+    }
+    .hero h2 {
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 45px;
+    }
+
+    .hero h4 {
+        font-size: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .hero span {
+        font-size: 80px;
+        margin-left: 20px;
+        font-style: italic;
+        color: white;
+    }
+    .hero h5 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .con {
+        margin-top: 15px;
+        padding: 12px 8px 12px 8px;
+        text-decoration: none;
+        font-size: 13px;
+        margin-left: 20px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+}
