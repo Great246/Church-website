@@ -414,14 +414,14 @@
     </div>
     </div>
 <div class="contactform">
-    <form>
+    <form action="https://formspree.io/f/mojjvrzo" method="POST">
 <h2>Send us a message</h2>
- <div class="input-box"><input type="text" required>
+ <div class="input-box"><input type="text" name="name" required>
     <label>Your Name</label></div>
-    <div class="input-box"><input type="email" required>
+    <div class="input-box"><input type="email" name="email" required>
         <label>Your Email</label></div>
-        <div class="input-box"><input type="text" required><label>Subject</label></div>
-        <div class="input-box"><textarea rows="5"></textarea><label>Your Message</label></div>
+        <div class="input-box"><input type="text" name="subject" required><label>Subject</label></div>
+        <div class="input-box"><textarea name="message" rows="5"></textarea><label>Your Message</label></div>
   <button type="submit">Send message</button>
     </form>
 </div>
@@ -468,4 +468,5 @@ right.classList.toggle("active");
 </body>
 
 </html>
+
 
